@@ -15,8 +15,17 @@
 </head>
 
 <body>
+    <div class="transition transition-1 is-active"></div>
     <div class="container-m">
-        <div class="main">
+        <main>
+
+            <ul class="transition">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
             <nav>
                 
                 <ul class="nav-links" >
@@ -32,7 +41,7 @@
                 </ul>
 
             </nav>
-
+         
             <div class="container" id="top">
                 <div class="row-content1">
                     <h1>Hello.</h1><br>
@@ -56,7 +65,9 @@
             </div>
              
             <div class="col01" id="creativity">
-                <a class= "mhover" href="#slider" >Show Creativity</a> 
+                <button class="outercircle">
+                    <a class= "mhover" href="#slider" >Show Creativity</a> 
+                </button>    
              </div>
             
             <div class="row">
@@ -111,7 +122,9 @@
                     
                 </div>
                 <div class="image1">
-                    <img src="img/pic1.jpg" alt="pic1" width="500" height="150">
+                    <a href="Paolo.html">
+                        <img src="img/pic1.jpg" alt="pic1" width="500" height="150">
+                    </a>    
                 </div>   
             </div>
 
@@ -211,7 +224,7 @@
             </div>
             
             
-        </div>   
+        </main>  
     </div>  
 
         
@@ -272,11 +285,13 @@
             });
         });
     </script>
-   
-        
+     
+    <script src="app.js"></script>    
     <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">  
     </script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
         
     <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">  
     </script>  
 </body>
+</html>
